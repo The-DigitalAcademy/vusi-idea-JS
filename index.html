@@ -24,16 +24,34 @@
              <h3>CREATE-TODO</h3>
              
              <form id="new-todo-form">
-                 <h4>info</h4>
+                 <h4>what's on your todo list</h4>
                  <input type="text" name="content" placeholder="e.g make a video"/>
 
                  <h4>Pick a Category</h4>
                  <div class="options">
 
+                    <label>
+                        <input
+                           type="radio"
+                           name="category"
+                           id="category1" 
+                           value="business" />
+                    <span class="bubble business"></span>
+                    <div>Business</div>
+                    </label>
 
+                    <label>
+                        <input
+                           type="radio"
+                           name="category"
+                           id="category1" 
+                           value="business" />
+                    <span class="bubble personal"></span>
+                    <div>Personal</div>
+                    </label>
 
                  </div>
-
+                 <input type="submit" value="Add todo"
              </form>
          </section>
 
